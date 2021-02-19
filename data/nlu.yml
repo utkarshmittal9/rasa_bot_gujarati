@@ -1,0 +1,125 @@
+nlu:
+- intent: greet
+  examples: |
+    - હાઈ ઇન્દુ
+    - નમસ્તે
+    - સુપ્રભાત
+    - શુભેચ્છાઓ
+    - હેલો બધાને
+    - તમે કેમ છો
+    - તમે કોણ છો
+    - તમે શું છો
+    - શું ચાલી રહ્યું છે
+    - શું હાલ ચાલ છે?
+
+- intent: goodbye
+  examples: |
+    - આવજો           
+    - પછી મળીશું
+    - આવજો મિત્ર
+    - પછી મળીશું
+    - મારે જવું છે
+    - શુભ રાત્રી
+    - તમારો દિવસ શુભ રહે
+    - અંત
+    - સમાપ્ત
+
+- intent: thanks
+  examples: |
+    - આભાર
+    - ખૂબ ખૂબ આભાર
+    - તેના માટે આભાર
+    - મદદ માટે આભાર
+    - સરસ, આભાર
+    - હા, આભાર!
+
+- intent: affirm
+  examples: |
+    - હા
+    - હા પાક્કુ
+    - સંપૂર્ણપણે
+    - હા ચોક્ક્સ
+    - હા હા હા
+    - ચોક્કસપણે
+
+- intent: deny
+  examples: |
+    - ના
+    - ક્યારેય
+    - મને એવું નથી લાગતું
+    - તે ગમતું નથી
+    - કોઈ રસ્તો નથી
+    - ખરેખર નથી
+
+- intent: lang_search
+  examples: |
+    - હું [hindi](language) વિશે જાણવા માંગુ છું
+    - શું તમે કૃપા કરીને [spanish](language) શોધી શકો છો?
+    - [marathi](language) માટે વધુ માહિતી આપો
+    - [gujrati](language) શોધો
+    - મને [bengali](language) વિશે માહિતી આપો
+    - તમે [Marathi](language) વિશે શું જાણો છો?
+    - મને [english](language) વિશે કહો
+    - મને [Assamese](language) વિશે વિગતો આપો
+    - તમે [Kannada](language) વિશે શું કહી શકો છો
+    - [bengali](language) વિશે કંઈક કહો
+
+- intent: country_search
+  examples: |
+      - કયા ક્ષેત્રમાં [hindi](language) બોલાય છે
+      - [spanish](language) કયા બોલાય છે
+      - [marathi](language) ક્ષેત્ર
+      - હું [gujrati](language) દેશ જાણવા માંગુ છું
+      - હિન્દી [bengali](language)
+      - હું હિન્દી [hindi](language) વિશે જાણવા માંગુ છું
+      - દેશ [english](language)
+      - [Assamese](language) દેશ
+      - [Assamese](language) દેશ કહો
+      - તમે [Assamese](language) દેશ વિશે શું જાણો છો
+      - મને [Assamese](language) દેશથી સંબંધિત કંઈપણ કહો
+    # - I would like to know about [french](language)
+    # - Search for [tulu](langauge)
+    # - Inform me regarding [Assamese](language)
+    # - What can you tell me about [Kannada](language)
+    # - I would like to learn about [bengali](language)
+    # - What is [gujrati](language)
+    # - What can I learn about [spanish](language)
+    # - Brief me about [Marathi](langauge)
+    # - Describe about [Dogri](language)
+    # - What information do you have about [Kashmiri](langauge)
+
+- intent: macroarea_search
+  examples: |
+      - કયા મrક્રોરિયા [hindi](language) બોલાય છે
+      - [spanish](language) કયા મrક્રોરિયા મા બોલાય છે
+      - [marathi](language) મrક્રોરિયા
+      - હું [gujrati](language) ના મcક્રોરિયા વિશે જાણવા માંગુ છું
+      - મને [bengali](language) નો મcક્રોરિયા કહો
+      - [Marathi](language) મcક્રોરિયા માટે શોધ કરો
+      - [english](language) મcક્રોરિયા?
+      - [Marathi](language) મcક્રોરિયા માટે શોધ કરો
+      - તમે [Assamese](language) મcક્રોરિયા વિશે શું જાણો છો
+      - મcક્રોરિયા [Kannada](language)
+      - [Assamese](language) મcક્રોરિયા
+      - વિસ્તાર [spanish](language)
+      - [marathi](language) વિસ્તાર
+      - કયા વિસ્તાર [gujrati](language) બોલાય છે
+      - [bengali](language) કયા વિસ્તાર મા બોલાય છે
+      - [Marathi](language) વિસ્તાર
+      - હું [english](language) ના વિસ્તાર વિશે જાણવા માંગુ છું
+      - મને [Marathi](language) નો વિસ્તાર કહો
+      - [Assamese](language) વિસ્તાર માટે શોધ કરો
+      - [spanish](language) વિસ્તાર?
+      - [spanish](language) વિસ્તાર માટે શોધ કરો
+      - તમે [gujrati](language) વિસ્તાર વિશે શું જાણો છો
+    # - I would like to know about [french](language)
+    # - Search for [tulu](langauge)
+    # - Inform me regarding [Assamese](language)
+    # - What can you tell me about [Kannada](language)
+    # - I would like to learn about [bengali](language)
+    # - What is [gujrati](language)
+    # - What can I learn about [spanish](language)
+    # - Brief me about [Marathi](langauge)
+    # - Describe about [Dogri](language)
+    # - What information do you have about [Kashmiri](langauge)
+    

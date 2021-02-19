@@ -1,0 +1,6 @@
+1. “You did helped me” as input is not giving desired output. We need more training data.
+2.  It is not giving output for “Mandarin Chinese” and “English”. We need more training data.
+3.  It is giving the output for even just word “Hindi” without any questions. We need better NLU model.
+4. Even after getting feedback it is asking for next question. It should give the alternative to the user whether they want to ask or not.
+5. Even though the feedback is not needed it is giving output similar to the feedback one. Better NLU model is required.
+6. Some of the negative feedback is not working. NLU model need to be improved.

@@ -1,0 +1,64 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - affirm
+  - deny
+  - lang_search
+  - feedback
+  - country_search
+  - macroarea_search
+entities:
+  - language
+# slots:
+#   email:
+#     type: unfeaturized
+#     influence_conversation: false
+responses:
+  utter_greet:
+  - text: |
+      નમસ્તે, 
+      મારું નામ ઇન્દુ છે. 
+      હું એક ચેટબોટ છું. 
+      હું તમને દુનિયા ની કોઈ પણ ભાષા વિષે જાણકારી આપી શકું છું.
+  # - text: |
+  #     Hi!
+  # - text: |
+  #     Hey! What can I do for you?  
+  utter_goodbye:
+  - text: |
+      આવજો
+  # - text: |
+  #     It was nice talking to you.
+  # - text: |
+  #     See you again!
+  utter_thanks:
+  - text: |
+      આભાર!
+  - text: |
+      મદદ કરવા માટે ખુશ છે :) 
+  feedback:
+  - text: |
+      તે તમને મદદ કરી?
+  utter_deny:
+  - text: |
+      તેના માટે માફ કરશો! આગલી વખતે સાચી માહિતી આપવાનો પ્રયત્ન કરશે.     
+
+actions:
+- '...'
+- utter_greet
+- utter_goodbye
+- action_lang_search
+- utter_thanks
+- feedback
+- action_country_search
+- action_macroarea_search
+# - utter_subscribed
+# forms:
+#   newsletter_form:
+#     email:
+#     - type: from_text
