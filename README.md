@@ -1,8 +1,6 @@
 About
 ------------------
-A basic chatbot using Rasa for accessing info about languages from the [World Atlas of Languages](https://wals.info/) data. This chatbot is built as part of the NLP course for [Plaksha University](https://plaksha.org/) taught by [Monojit Choudhary](https://www.microsoft.com/en-us/research/people/monojitc/).
-
-**[Please take help of course TA for any doubts]**
+This is a chatbot made using RASA which can communicate in Gujarati language with Non Roman Script. It is able to tell about a langauge (ISO Code, Family), Country and macro area. 
 
 **[This is the complete version that can be used to just start chatting with the chatbot (has all the prerequisite code).]**
 
